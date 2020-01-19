@@ -4,15 +4,9 @@
     var $table = "users";
     
     function get($params = []){
-      if(isset($params['get']) && $params['get']  == 'all'){
-        return $this->getAll();
-      }
-
+      
       $where = [];
       $order_by = [];
-
-
-      
 
       $fields = ['*'];
 
@@ -48,6 +42,13 @@
         }
       }
 
+      
+      if(isset($params['get']) && $params['get']  == 'all'){
+        unset($where);
+        //return $this->getAll();
+      }
+
+
       $params = [
         'WHERE' => $where,
         'ORDER BY' => $order_by,
@@ -67,8 +68,14 @@
       return $this->insertOne($params);
     }
 
-    function put($params){
-      return 'PUT';
+    function put($params = []){
+      if(!isset($params['user_id']) || empty($params['user_id'])){
+        return false;
+      }
+      $id = $params['user_id'];
+      unset($params['user_id']);
+      
+      return $this->update($id, $params);
     }
 
     function delete($params){

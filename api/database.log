@@ -1,0 +1,176 @@
+
+INSERT INTO users (  :? ,  :?  ) VALUES ( :? ,  :?  ) 
+Args => Array
+(
+    [0] => 0
+    [1] => 1
+    [2] => Array
+        (
+            [teste] => testes
+            [name] => sabrina
+            [github_username] => teste
+        )
+
+    [3] => Array
+        (
+            [teste] => testes
+            [name] => sabrina
+            [github_username] => teste
+        )
+
+)
+
+SQL ERRORS => Array
+(
+    [0] => 42000
+    [1] => 1065
+    [2] => Query was empty
+)
+
+SELECT * FROM users  ORDER BY  :?  :? 
+Args => Array
+(
+    [0] => name
+    [1] => \'DESC
+)
+
+SQL ERRORS => Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'DESC' at line 1
+)
+
+SELECT * FROM users  ORDER BY  :?  :? 
+Args => Array
+(
+    [0] => name
+    [1] => DESC
+)
+
+
+SELECT * FROM users  ORDER BY  :?  :? 
+Args => Array
+(
+    [0] => name
+    [1] => ASC
+)
+
+
+UPDATE users SET ( :? ,  :? ,  :?  ) VALUES ( :? ,  :? ,  :?  )  WHERE  :?  :? 
+Args => Array
+(
+    [0] => teste
+    [1] => name
+    [2] => github_username
+    [3] => testes2
+    [4] => cleverson
+    [5] => teste2
+    [6] => id
+    [7] => 1
+)
+
+SQL ERRORS => Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( teste ,  name ,  github_username  ) VALUES ( testes2 ,  cleverson ,  teste2  )' at line 1
+)
+
+UPDATE users SET ( :? ,  :? ,  :?  ) VALUES ( :? ,  :? ,  :?  )  WHERE  :? =  :? 
+Args => Array
+(
+    [0] => teste
+    [1] => name
+    [2] => github_username
+    [3] => testes2
+    [4] => cleverson
+    [5] => teste2
+    [6] => id
+    [7] => 1
+)
+
+SQL ERRORS => Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( teste ,  name ,  github_username  ) VALUES ( testes2 ,  cleverson ,  teste2  )' at line 1
+)
+
+UPDATE users SET ( :? = ':?',  :? = ':?',  :? = ':?' )  WHERE  :? =  :? 
+Args => Array
+(
+    [0] => teste
+    [1] => testes2
+    [2] => name
+    [3] => cleverson
+    [4] => github_username
+    [5] => teste2
+    [6] => id
+    [7] => 1
+)
+
+SQL ERRORS => Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( teste = 'testes2',  name = 'cleverson',  github_username = 'teste2' )  WHERE  ' at line 1
+)
+
+UPDATE users SET  :? = ':?',  :? = ':?',  :? = ':?' WHERE  :? =  :? 
+Args => Array
+(
+    [0] => teste
+    [1] => testes2
+    [2] => name
+    [3] => cleverson
+    [4] => github_username
+    [5] => teste2
+    [6] => id
+    [7] => 1
+)
+
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'teste' in 'field list'
+)
+
+UPDATE users SET  :? = ':?',  :? = ':?' WHERE  :? =  :? 
+Args => Array
+(
+    [0] => name
+    [1] => cleverson
+    [2] => github_username
+    [3] => teste2
+    [4] => id
+    [5] => 1
+)
+
+
+UPDATE users SET  :? = ':?',  :? = ':?' WHERE  :? =  :? 
+Args => Array
+(
+    [0] => name
+    [1] => cleverson
+    [2] => github_username
+    [3] => teste2
+    [4] => id
+    [5] => 1
+)
+
+
+UPDATE users SET  :? = ':?',  :? = ':?',  :? = ':?' WHERE  :? =  :? 
+Args => Array
+(
+    [0] => name
+    [1] => Cleverson
+    [2] => github_username
+    [3] => teste2
+    [4] => last_name
+    [5] => Fernandes2
+    [6] => id
+    [7] => 1
+)
+

@@ -20,23 +20,28 @@ class DataBaseConnection{
         return 'Connection failed: ' . $e->getMessage();
       }
 
+      //database log
+      $log = fopen("database.log", "a");
+      fwrite($log, "\n");
+      fwrite($log, $sql."\n");
+      fwrite($log, "Args => ".print_r($args, true));
+      fwrite($log, "\n");
+
       foreach($args as $value){
         //to be fixed
         $sql = $this->str_replace_first(':?', $value, $sql);
         
       }
       
-      debug($sql);
-      debug($args);
       $query = $data_base_handle->prepare($sql);
       $success = $query->execute();
-
+      
       if(!$success){
-        debug($query->errorInfo());
-        debug($sql);
-        debug($this->dsn);
+        fwrite($log, "SQL ERRORS => ".print_r($query->errorInfo(), true));
       }
       $data = $query->fetchAll(PDO::FETCH_ASSOC);
+
+
 
       if($this->is_insert){
         return $data_base_handle->lastInsertId();
@@ -45,8 +50,7 @@ class DataBaseConnection{
       return $data; 
     }
 
-    private function str_replace_first($from, $to, $content)
-    {
+    private function str_replace_first($from, $to, $content){
         $from = '/'.preg_quote($from, '/').'/';
 
         return preg_replace($from, $to, $content, 1);

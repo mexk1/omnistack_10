@@ -104,6 +104,34 @@
       return $result;
     }
 
+    function update($ids = [], $params = []){
+      $conn = new DataBaseConnection;
+      $sql = "UPDATE {$this->table} SET ";
+      $args = [];
+      $where = [];
+      $where[]['id'] = is_array($ids) ? $ids : [$ids]; 
+
+      $loop_counter = 0;
+      foreach($params as $field => $value){ 
+        if(is_string($value)){
+          $sql .= " :? = ':?'";
+        }else{
+          $sql .= " :? = :?";
+        }
+        $args[] = $field;
+        $args[] = $value;
+        if($loop_counter < (sizeof($params) - 1)){
+          $sql .= ", ";
+        }
+        $loop_counter++;
+      }
+
+      $this->queryWhere($where, $sql, $args);
+      $result = $conn->runQuery($sql, $args);
+      
+      return  $result;
+    }
+
     private function queryJoin($join = [], &$sql){
       //Join's are made only by devs, so don't need the $args
       foreach($join as $type => $table){
@@ -161,13 +189,16 @@
         
         foreach($field as $field_name => $values){
           if(sizeof($values) == 1){
-            $args[] = end($values);
+            $sql .= " :? = ";
+            $args[] = $field_name;
             $sql .= " :? ";
+            $args[] = end($values);
           }else{
             for($i = 0; $i < sizeof($values); $i++){
   
               if($i == 0 ){
-                $sql .= " {$field_name} IN ( ";
+                $sql .= " :? IN ( ";
+                $args[] = $field_name;
               }
   
               $args[] = $values[$i];
