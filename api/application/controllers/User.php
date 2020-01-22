@@ -1,7 +1,7 @@
 <?php
 
   class User extends  Mexk{
-    var $table = "users";
+    var $table = "user";
     
     function get($params = []){
       
@@ -48,7 +48,6 @@
         //return $this->getAll();
       }
 
-
       $params = [
         'WHERE' => $where,
         'ORDER BY' => $order_by,
@@ -74,7 +73,8 @@
       }
       $id = $params['user_id'];
       unset($params['user_id']);
-      
+
+      return $params;
       return $this->update($id, $params);
     }
 

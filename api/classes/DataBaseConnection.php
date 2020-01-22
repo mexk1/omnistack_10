@@ -22,7 +22,9 @@ class DataBaseConnection{
 
       //database log
       $log = fopen("database.log", "a");
-      fwrite($log, "\n");
+      fwrite($log, "\n");      
+      fwrite($log, date("d/m/Y H:i:s", time()));
+      fwrite($log, "\n");      
       fwrite($log, $sql."\n");
       fwrite($log, "Args => ".print_r($args, true));
       fwrite($log, "\n");

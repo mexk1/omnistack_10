@@ -174,3 +174,79 @@ Args => Array
     [7] => 1
 )
 
+
+SELECT * FROM users  ORDER BY  :?  :? 
+Args => Array
+(
+    [0] => name
+    [1] => ASC
+)
+
+SQL ERRORS => Array
+(
+    [0] => HY093
+    [1] => 
+    [2] => 
+)
+
+SELECT * FROM users  ORDER BY  :?  :? 
+Args => Array
+(
+    [0] => name
+    [1] => ASC
+)
+
+SQL ERRORS => Array
+(
+    [0] => HY093
+    [1] => 
+    [2] => 
+)
+
+20/01/2020 00:48:08
+SELECT * FROM users  ORDER BY  :?  :? 
+Args => Array
+(
+    [0] => name
+    [1] => ASC
+)
+
+SQL ERRORS => Array
+(
+    [0] => HY093
+    [1] => 
+    [2] => 
+)
+
+20/01/2020 00:48:55
+SELECT * FROM users  ORDER BY  :?  :? 
+Args => Array
+(
+    [0] => name
+    [1] => ASC
+)
+
+SQL ERRORS => Array
+(
+    [0] => HY093
+    [1] => 
+    [2] => 
+)
+
+20/01/2020 00:49:42
+SELECT * FROM users  ORDER BY  :?  :? 
+Args => Array
+(
+    [0] => name
+    [1] => ASC
+)
+
+
+22/01/2020 00:45:03
+SELECT * FROM users  ORDER BY  :?  :? 
+Args => Array
+(
+    [0] => name
+    [1] => ASC
+)
+

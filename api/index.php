@@ -70,11 +70,13 @@
     }else{
         $classResponse->success_callback($return);
     }
-
-
+    
     function call_controller($controller){
+        $classResponse = new Response;
         $path = __DIR__ . '/application/controllers/' . ucfirst($controller) . '.php';
         if (is_file($path)) {
             include_once $path;
+        }else{
+            $classResponse->bad_request("Endpoint invalido");
         }
     }
