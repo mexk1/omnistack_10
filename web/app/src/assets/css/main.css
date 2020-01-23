@@ -2,36 +2,80 @@ body, html{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 body{
   background-image: linear-gradient(141deg, #b987d6 0%, #9660b5 51%, #7d32a8 75%);
   background-attachment: fixed;
 }
-
-.form-wrapper{
-  position: fixed;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+form{
+  padding-top: 20px;
 }
 
-.form-wrapper .form_login{
-  margin: -50px auto auto;
+.form__login{
+  margin-top: 50px;
+}
+
+.card{
+  position: relative;
+  width: calc(100% - 50px);
   max-width: 450px;
-  width: calc(100% - 60px);
-  justify-content: center;
+  min-height: 650px;
+  margin-top: -100px;
   display: flex;
+  border-radius: 15px;
+  justify-content: center;
   align-items: center;
-  border-radius: 10px;    
-  box-shadow: 0px 0px 15px -5px #1fc8db;
-  padding: 20px 5px;
+  transition: transform .7s;
+  transform-style: preserve-3d;
+  margin: auto;
+  box-shadow: -25px 5px 40px -30px black, 25px 5px 40px -30px black;
+  margin-top: 70px;
 }
 
-.form-wrapper .form_login .row{
+.card__face{
   width: 100%;
-  margin-bottom: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px 10px ;
+  backface-visibility: hidden;
+}
+
+.card__face.card__face--back {
+  transform: rotateY( 180deg );
+}
+
+.card__shadow{
+  height: 50px;
+  width: 400px;
+  max-width: calc(100% - 50px);
+  box-shadow: 0px 100px 70px -5px;
+  position: absolute;
+  bottom: 0;
+}
+
+.card.card__show-back{ transform:  rotateY(-180deg) }
+
+@media only screen and (max-width: 768px){
+
+  .card{
+    margin-top: 40px;
+    max-width: 320px;
+    box-shadow: -25px 5px 30px -30px black, 25px 5px 30px -30px black;
+  }
+
+  .card__shadow{
+    height: 30px;
+    width: calc(100% - 100px);
+    max-width: calc(100% - 50px);
+    box-shadow: 0px 60px 40px -5px;
+    position: absolute;
+    bottom: 0;
+  }
 }

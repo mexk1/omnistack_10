@@ -13,14 +13,8 @@
         }
 
         function success_callback($dados){
-            die(json_encode(
-                    array(
-                        'status' => 'success',
-                        'code' => '200',
-                        'dados' => $dados
-                    )   
-                )
-            );
+            header("content-length: ".strlen(json_encode($dados)));
+            die(json_encode($dados));
         }
         
         function bad_request($m = ""){

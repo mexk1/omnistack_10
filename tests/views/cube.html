@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <style type="text/css">
+
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body, html{
+        height: 100%;
+      }
+
+      body{
+        background-color: #5e90e0;
+      }
+
+      form{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      .cube{
+        position: relative;
+        width: calc(100% - 50px);
+        max-width: 500px;
+        height: 600px;
+        margin-top: -100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.4s;
+        transform-style: preserve-3d;
+      }
+
+      .cube.show-back   { transform: translateZ(-250px) rotateY(-180deg); }
+
+      .form__face{
+        height: 600px;
+        width: 100%;
+        position: absolute;
+        border-radius: 10px;
+        background-color: #fff;
+        border: 1px solid;
+      }
+
+      .form__face--login{
+        box-shadow: -25px 5px 40px -30px black, 25px 5px 40px -30px black;
+        transform: rotateY(  0deg) translateZ(250px);
+      }
+      .form__face--right{
+        transform: rotateY( 90deg) translateZ(250px);
+      }
+      .form__face--cadastro{
+        transform: rotateY(180deg) translateZ(250px); 
+      }
+      .form__face--left{
+        transform: rotateY(-90deg) translateZ(250px);
+      }
+
+      .footer-shadow{
+        height: 50px;
+        width: 400px;
+        max-width: calc(100% - 50px);
+        box-shadow: 0px 100px 70px -5px;
+        position: absolute;
+        bottom: 0;
+      }
+
+    </style>
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="cube " id="cube">
+          
+        <div class="form__face form__face--right">
+          <form>
+            <h1>Right</h1>
+          </form>
+        </div>
+        <div class="form__face form__face--login">
+          <div class="switch-forms" onclick="toggleForms();">
+            Switch forms
+          </div>
+          <form>
+            <h1>Login</h1>
+          </form>
+        </div>
+        <div class="form__face form__face--left">
+          <form>
+            <h1>Left</h1>
+          </form>
+        </div>
+        <div class="form__face form__face--cadastro">
+          <div class="switch-forms" onclick="toggleForms();">
+            Switch forms
+          </div>
+          <form>
+            <h1>Cadastro</h1>
+          </form>
+        </div>
+        
+       
+      </div>
+      
+      
+    </div>
+  </body>
+  <script>
+
+    function toggleForms(){
+      var cube = document.getElementById('cube');
+      cube.classList.toggle('show-back');
+    }
+  </script>
+</html>

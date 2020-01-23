@@ -15,6 +15,9 @@
         parse_str(file_get_contents('php://input'), $_PUT);
     }
 
+    
+    header("Access-Control-Allow-Origin: *");
+    header("content-type: application/json");
 
     //ENVIRONMENT
     if(ENVIRONMENT == 'DEV'){

@@ -1,11 +1,11 @@
 <?php
 
-  class Techs{
+  class Techs extends Mexk{
+    var $table = "tech";
 
-
-    public function get(){
-
+    public function get($params = []){
+      $success = $this->getBy($params);
+      return $success;
     }
-
 
   }

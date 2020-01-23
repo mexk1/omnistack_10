@@ -13,7 +13,7 @@
       $conn = new DataBaseConnection;
       $args = [];
 
-      $fields = isset($params['fields']) && !empty($params['fields']) ? $params['fields'] : '*';
+      $fields = isset($params['fields']) && !empty($params['fields']) ? $params['fields'] : ['*'];
       $where = isset($params['WHERE']) && !empty($params['WHERE']) ? $params['WHERE'] : [];
       $join = isset($params['JOIN']) && !empty($params['JOIN']) ? $params['JOIN'] : [];
       $group_by = isset($params['GROUP BY']) && !empty($params['GROUP BY']) ? $params['GROUP BY'] : [];

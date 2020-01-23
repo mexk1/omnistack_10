@@ -250,3 +250,1195 @@ Args => Array
     [1] => ASC
 )
 
+
+23/01/2020 03:12:03
+SELECT  FROM  
+Args => Array
+(
+)
+
+SQL ERRORS => Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM' at line 1
+)
+
+23/01/2020 03:12:14
+SELECT  FROM  
+Args => Array
+(
+)
+
+SQL ERRORS => Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM' at line 1
+)
+
+23/01/2020 03:13:17
+SELECT * FROM  
+Args => Array
+(
+)
+
+SQL ERRORS => Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+23/01/2020 03:13:29
+SELECT * FROM  
+Args => Array
+(
+)
+
+SQL ERRORS => Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+23/01/2020 03:14:01
+SELECT * FROM techs 
+Args => Array
+(
+)
+
+SQL ERRORS => Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'omnistack.techs' doesn't exist
+)
+
+23/01/2020 03:14:30
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:24:42
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:25:39
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:25:52
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:26:45
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:28:59
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:29:10
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:29:57
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:30:11
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:31:44
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:31:58
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:32:00
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:32:10
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:32:44
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:33:07
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:33:20
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:33:42
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:34:20
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:34:28
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:35:00
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:35:06
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:35:20
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:35:32
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:35:44
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:37:58
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:38:00
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:38:12
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:38:22
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:39:14
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:39:19
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:40:11
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:40:28
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:49:09
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:49:09
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:49:35
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:49:36
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:49:52
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:50:12
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:50:37
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:51:55
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:52:05
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:52:20
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:53:25
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:53:30
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:53:33
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:54:22
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:55:29
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:56:29
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:56:38
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:57:01
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:57:16
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:57:45
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:58:22
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:58:34
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:58:42
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:58:59
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 03:59:42
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:11:10
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:11:28
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:11:31
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:11:56
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:12:04
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:12:12
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:12:15
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:12:40
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:12:56
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:13:17
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:13:21
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:14:05
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:14:34
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:14:42
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:14:48
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:19:17
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:19:25
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:19:34
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:19:53
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:19:56
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:20:51
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:21:28
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:21:30
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:21:54
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:22:44
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:22:52
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:22:59
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:23:12
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:23:23
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:23:32
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:23:51
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:23:56
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:24:14
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:25:22
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:25:31
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:28:13
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:28:33
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:29:25
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:29:28
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:29:29
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:29:43
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:29:55
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:29:57
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:30:00
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:30:01
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:31:07
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:31:09
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:31:10
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 04:36:21
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:07:25
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:07:44
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:07:55
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:08:05
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:08:29
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:08:47
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:08:48
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:08:52
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:08:55
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:09:06
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:09:18
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:09:44
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:09:46
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:09:55
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:09:58
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:10:38
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:11:11
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:11:13
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:11:35
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:12:00
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:12:06
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:12:33
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:13:22
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:13:42
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:13:52
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:16:54
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:17:23
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:18:41
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:18:44
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:19:13
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:19:28
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:20:00
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:22:08
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:25:29
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:25:30
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:25:36
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:26:23
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:28:10
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:28:28
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:28:50
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:30:11
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:30:24
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:30:39
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:31:17
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:31:46
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:32:14
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:32:28
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:32:57
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:33:09
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:33:29
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:33:48
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:34:01
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:34:19
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:37:07
+SELECT * FROM tech 
+Args => Array
+(
+)
+
+
+23/01/2020 05:37:26
+SELECT * FROM tech 
+Args => Array
+(
+)
+
