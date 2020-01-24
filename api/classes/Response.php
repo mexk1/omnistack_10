@@ -13,7 +13,6 @@
         }
 
         function success_callback($dados){
-            header("content-length: ".strlen(json_encode($dados)));
             die(json_encode($dados));
         }
         

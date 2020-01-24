@@ -62,6 +62,12 @@ form{
 
 .card.card__show-back{ transform:  rotateY(-180deg) }
 
+.toast.error{
+  background-color: red;
+}
+.toast.success{
+  background-color: chartreuse;
+}
 @media only screen and (max-width: 768px){
 
   .card{

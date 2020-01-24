@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import api from "../../../services/api";
-import M from 'materialize-css';
+import  M  from "materialize-css";
 
 function FormCadastro (){
 
@@ -8,35 +8,29 @@ function FormCadastro (){
   const [name, setName] = useState([]);
   const [last_name, setLastName] = useState([]);
   const [github_username, setGithubUsername] = useState([]);
-  const [techs = [], setTechs] = useState([]);
+  const [techs, setTechs] = useState([]);
   const [password, setPassword] = useState([]);
   const [confirmPassword, setConfirmPassword] = useState([]);
 
-  useEffect(() => {
-    async function getTechs(){
-      const techsRender = await api.get('techs?');
-      setTechsRender(techsRender.data);
-    }
-    getTechs();
-  }, [])
-
-  function subscribeDev(e){
+  async function subscribeDev(e){
     e.preventDefault();
-    console.log({
+
+    var object = {
       name,
       last_name,
       github_username,
       techs,
       password,
       confirmPassword
-    });
+    }
+  
+    M.toast({html: 'Cadastrando'})
+    const response = await api.post('user', {data: object});
+    
+    M.toast({html: response.data.message, classes: response.data.status})
 
   }
 
-  function updateTechs(e) {
-    var select = document.getElementById('selectTechs');
-    var tempArray = techs;
-  }
   return (
     <div className="row">
           <form id="subscribeDev" onSubmit={subscribeDev}>
@@ -80,22 +74,14 @@ function FormCadastro (){
 
               <div className="col s12 m12"> 
                 <div className="input-field col s12 m12 center">
-                  <select 
-                    multiple="multiple" 
-                    id="selectTechs"
-                    name="user[techs][]"
+                  <label >Tecnologias </label>
+                  <input 
+                    type="text" 
+                    placeholder="tecnologias" 
+                    name="user[techs]" 
                     value={techs}
-                    onChange={e => setTechs(e.target.value)}  
-                  >
-                    <option value="" disabled ></option>
-                    {techsRender.map(tech => (
-                          <option key={tech.id} value={tech.id}>{tech.name}</option>
-                        )
-                      )
-                    }
-                    
-                  </select>
-                  <label>Escolha suas tecnologias Favoritas</label>
+                    onChange={e => setTechs(e.target.value)}
+                  />
                 </div>
               </div>
 

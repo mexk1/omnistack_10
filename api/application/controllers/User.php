@@ -64,7 +64,29 @@
     }
 
     function post($params){
-      return $this->insertOne($params);
+      if(!empty($params['password']) && $params['password'] == $params['confirmPassword']){
+        unset($params['confirmPassword']);
+        $params['password'] = md5($params['password']);
+      }else{
+        return [
+          'status' => 'error', 
+          'message' => "Senhas vazias ou nao conferem"
+        ];
+      }
+
+      $success = $this->insertOne($params);
+
+      if(! $success ){
+        return [
+          'status' => 'error', 
+          'message' => "erro ao cadastrar"
+        ];
+      }
+
+      return [
+        'status' => 'success', 
+        'message' => "Usuario Cadastrado"
+      ];
     }
 
     function put($params = []){

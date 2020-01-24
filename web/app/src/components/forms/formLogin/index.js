@@ -1,13 +1,6 @@
 import React, {Component} from 'react';
-import M from 'materialize-css';
 
 class FormLogin extends Component{
-
-  componentDidMount(){
-    M.updateTextFields();
-    var elems = document.querySelectorAll('select');
-    var instances = M.FormSelect.init(elems);
-  }
   
   login(e){
     e.preventDefault();
