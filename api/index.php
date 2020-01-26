@@ -4,23 +4,18 @@
     require_once "classes/DataBaseConnection.php";
     require_once "util/functions.php";
 
-    //RESTFUL
-    global $_DELETE;
-    global $_PUT;
+    // //RESTFUL
+    // global $_DELETE;
+    // global $_PUT;
 
-    if (!strcasecmp($_SERVER['REQUEST_METHOD'], 'DELETE')) {
-        parse_str(file_get_contents('php://input'), $_DELETE);
-    }
-    if (!strcasecmp($_SERVER['REQUEST_METHOD'], 'PUT')) {
-        parse_str(file_get_contents('php://input'), $_PUT);
-    }
-
+    // if (!strcasecmp($_SERVER['REQUEST_METHOD'], 'DELETE')) {
+    //     parse_str(file_get_contents('php://input'), $_DELETE);
+    // }
+    // if (!strcasecmp($_SERVER['REQUEST_METHOD'], 'PUT')) {
+    //     parse_str(file_get_contents('php://input'), $_PUT);
+    // }
     
     header("Access-Control-Allow-Origin: http://localhost:3000"); 
-    //header("Content-Type: application/json");
-    //header('Accept: application/json');
-
-    
 
     //ENVIRONMENT
     if(ENVIRONMENT == 'DEV'){
@@ -52,12 +47,8 @@
 
     if($method == 'GET'){
         $str = explode('?', $_SERVER['REQUEST_URI']);
-        if(sizeof($str) < 2){
-           $classResponse->bad_request("Parametros invalidos");
-        }
         $str = urldecode(end($str));
         parse_str($str, $params);
-
     }else{
         $params = json_decode(file_get_contents('php://input'), true);
         if(!$params){

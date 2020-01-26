@@ -180,22 +180,31 @@
 
       foreach($where as $w => $field){
         
-        if($first_where_flag){
-          $sql .= " AND ";
-          $first_where_flag = true;
-        }else{
-          $sql .= " WHERE ";
-        }
-        
         foreach($field as $field_name => $values){
-          if(sizeof($values) == 1){
+          if(!is_array($values) || sizeof($values) == 1){
+           
+            if($first_where_flag){
+              $sql .= " AND ";
+            }else{
+              $first_where_flag = true;
+              $sql .= " WHERE ";
+            }
+
             $sql .= " :? = ";
             $args[] = $field_name;
             $sql .= " :? ";
-            $args[] = end($values);
+            $args[] = is_array($values) ? end($values) : $values;
           }else{
+            
             for($i = 0; $i < sizeof($values); $i++){
-  
+              
+              if( $first_where_flag){
+                $sql .= " AND ";
+              }else{
+                $first_where_flag = true;
+                $sql .= " WHERE ";
+              }
+
               if($i == 0 ){
                 $sql .= " :? IN ( ";
                 $args[] = $field_name;

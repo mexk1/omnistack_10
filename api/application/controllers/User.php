@@ -12,8 +12,12 @@
 
       if(isset($params['github_username']) && !empty($params['github_username'])){
         
-        $where[]['github_username'] = explode(',', $params['github_username']);
-
+        $aux = [];
+        foreach(explode(',', $params['github_username']) as $username){
+          $aux[] = '"'.$username.'"';
+        }
+        $where[]['github_username'] = $aux;
+        $aux = [];
       }
 
       if(isset($params['user_id']) && !empty($params['user_id'])){
@@ -57,10 +61,10 @@
       $success = $this->getBy($params, $fields);
 
       if(!empty($success)){
-        return $success;
+        return ['success' => 'error', 'message' => '', 'data' => $success];
       }
 
-      return array('Sem parametros');
+      return ['status' => 'error', 'message' => 'Nenhum Usuário encontrado', 'data' => []];
     }
 
     function post($params){
@@ -85,7 +89,8 @@
 
       return [
         'status' => 'success', 
-        'message' => "Usuario Cadastrado"
+        'message' => "Usuario Cadastrado",
+        'data' => $this->getById($success, ['id', 'name', 'last_name'])
       ];
     }
 

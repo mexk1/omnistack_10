@@ -1,24 +1,230 @@
 
-INSERT INTO users (  :? ,  :?  ) VALUES ( :? ,  :?  ) 
+26/01/2020 05:26:20
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
 Args => Array
 (
-    [0] => 0
-    [1] => 1
-    [2] => Array
-        (
-            [teste] => testes
-            [name] => sabrina
-            [github_username] => teste
-        )
+)
 
-    [3] => Array
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+
+26/01/2020 05:26:20
+INSERT INTO user (  :? ,  :? ,  :? ,  :? ,  :?  ) VALUES ( ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?'  ) 
+Args => Array
+(
+    [0] => name
+    [1] => last_name
+    [2] => github_username
+    [3] => techs
+    [4] => password
+    [5] => asdga
+    [6] => FERNANDES
+    [7] => adg
+    [8] => React, Reactjs
+    [9] => 202cb962ac59075b964b07152d234b70
+)
+
+INSERT INTO user (  name ,  last_name ,  github_username ,  techs ,  password  ) VALUES ( 'asdga' ,  'FERNANDES' ,  'adg' ,  'React, Reactjs' ,  '202cb962ac59075b964b07152d234b70'  ) 
+
+26/01/2020 05:26:47
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+Args => Array
+(
+)
+
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+
+26/01/2020 05:26:47
+INSERT INTO user (  :? ,  :? ,  :? ,  :? ,  :?  ) VALUES ( ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?'  ) 
+Args => Array
+(
+    [0] => name
+    [1] => last_name
+    [2] => github_username
+    [3] => techs
+    [4] => password
+    [5] => asdga
+    [6] => FERNANDES
+    [7] => adg
+    [8] => React, Reactjs
+    [9] => 202cb962ac59075b964b07152d234b70
+)
+
+INSERT INTO user (  name ,  last_name ,  github_username ,  techs ,  password  ) VALUES ( 'asdga' ,  'FERNANDES' ,  'adg' ,  'React, Reactjs' ,  '202cb962ac59075b964b07152d234b70'  ) 
+
+26/01/2020 05:26:47
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 19
+)
+
+SELECT * FROM user WHERE user.id = 19 
+
+26/01/2020 05:28:49
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+Args => Array
+(
+)
+
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+
+26/01/2020 05:28:49
+INSERT INTO user (  :? ,  :? ,  :? ,  :? ,  :?  ) VALUES ( ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?'  ) 
+Args => Array
+(
+    [0] => name
+    [1] => last_name
+    [2] => github_username
+    [3] => techs
+    [4] => password
+    [5] => agsd
+    [6] => FERNANDES
+    [7] => adg
+    [8] => React, Reactjs
+    [9] => 202cb962ac59075b964b07152d234b70
+)
+
+INSERT INTO user (  name ,  last_name ,  github_username ,  techs ,  password  ) VALUES ( 'agsd' ,  'FERNANDES' ,  'adg' ,  'React, Reactjs' ,  '202cb962ac59075b964b07152d234b70'  ) 
+
+26/01/2020 05:28:49
+SELECT id, name, last_name FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 20
+)
+
+SELECT id, name, last_name FROM user WHERE user.id = 20 
+
+26/01/2020 05:31:11
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+26/01/2020 05:32:18
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+26/01/2020 05:32:37
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+26/01/2020 05:55:40
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+Args => Array
+(
+)
+
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+
+26/01/2020 05:55:40
+INSERT INTO user (  :? ,  :? ,  :? ,  :? ,  :? ,  :? ,  :?  ) VALUES ( ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?'  ) 
+Args => Array
+(
+    [0] => name
+    [1] => last_name
+    [2] => github_username
+    [3] => techs
+    [4] => password
+    [5] => avatar_url
+    [6] => bio
+    [7] => agsd
+    [8] => FERNANDES
+    [9] => adsg
+    [10] => React, Reactjs
+    [11] => 202cb962ac59075b964b07152d234b70
+    [12] => https://avatars3.githubusercontent.com/u/13684189?v=4
+    [13] => 
+)
+
+INSERT INTO user (  name ,  last_name ,  github_username ,  techs ,  password ,  avatar_url ,  bio  ) VALUES ( 'agsd' ,  'FERNANDES' ,  'adsg' ,  'React, Reactjs' ,  '202cb962ac59075b964b07152d234b70' ,  'https://avatars3.githubusercontent.com/u/13684189?v=4' ,  ''  ) 
+
+26/01/2020 05:55:40
+SELECT id, name, last_name FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 21
+)
+
+SELECT id, name, last_name FROM user WHERE user.id = 21 
+
+26/01/2020 05:56:12
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+Args => Array
+(
+)
+
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+
+26/01/2020 05:56:12
+INSERT INTO user (  :? ,  :? ,  :? ,  :? ,  :? ,  :? ,  :?  ) VALUES ( ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?'  ) 
+Args => Array
+(
+    [0] => name
+    [1] => last_name
+    [2] => github_username
+    [3] => techs
+    [4] => password
+    [5] => avatar_url
+    [6] => bio
+    [7] => asdga
+    [8] => FERNANDES
+    [9] => mexk1
+    [10] => React, Reactjs
+    [11] => 202cb962ac59075b964b07152d234b70
+    [12] => https://avatars0.githubusercontent.com/u/45496687?v=4
+    [13] => 
+)
+
+INSERT INTO user (  name ,  last_name ,  github_username ,  techs ,  password ,  avatar_url ,  bio  ) VALUES ( 'asdga' ,  'FERNANDES' ,  'mexk1' ,  'React, Reactjs' ,  '202cb962ac59075b964b07152d234b70' ,  'https://avatars0.githubusercontent.com/u/45496687?v=4' ,  ''  ) 
+
+26/01/2020 05:56:12
+SELECT id, name, last_name FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 22
+)
+
+SELECT id, name, last_name FROM user WHERE user.id = 22 
+
+26/01/2020 05:57:40
+SELECT * FROM user  WHERE  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => mexk1
+)
+
+SELECT * FROM user  WHERE  github_username =  mexk1 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'mexk1' in 'where clause'
+)
+
+26/01/2020 06:03:06
+SELECT * FROM user  WHERE  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => Array
         (
-            [teste] => testes
-            [name] => sabrina
-            [github_username] => teste
+            [0] => mexk1
         )
 
 )
+
 
 SQL ERRORS => Array
 (
@@ -27,2229 +233,180 @@ SQL ERRORS => Array
     [2] => Query was empty
 )
 
-SELECT * FROM users  ORDER BY  :?  :? 
+26/01/2020 06:04:28
+SELECT * FROM user  WHERE  :? =  :? 
 Args => Array
 (
-    [0] => name
-    [1] => \'DESC
+    [0] => github_username
+    [1] => mexk1
 )
 
-SQL ERRORS => Array
-(
-    [0] => 42000
-    [1] => 1064
-    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'DESC' at line 1
-)
-
-SELECT * FROM users  ORDER BY  :?  :? 
-Args => Array
-(
-    [0] => name
-    [1] => DESC
-)
-
-
-SELECT * FROM users  ORDER BY  :?  :? 
-Args => Array
-(
-    [0] => name
-    [1] => ASC
-)
-
-
-UPDATE users SET ( :? ,  :? ,  :?  ) VALUES ( :? ,  :? ,  :?  )  WHERE  :?  :? 
-Args => Array
-(
-    [0] => teste
-    [1] => name
-    [2] => github_username
-    [3] => testes2
-    [4] => cleverson
-    [5] => teste2
-    [6] => id
-    [7] => 1
-)
-
-SQL ERRORS => Array
-(
-    [0] => 42000
-    [1] => 1064
-    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( teste ,  name ,  github_username  ) VALUES ( testes2 ,  cleverson ,  teste2  )' at line 1
-)
-
-UPDATE users SET ( :? ,  :? ,  :?  ) VALUES ( :? ,  :? ,  :?  )  WHERE  :? =  :? 
-Args => Array
-(
-    [0] => teste
-    [1] => name
-    [2] => github_username
-    [3] => testes2
-    [4] => cleverson
-    [5] => teste2
-    [6] => id
-    [7] => 1
-)
-
-SQL ERRORS => Array
-(
-    [0] => 42000
-    [1] => 1064
-    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( teste ,  name ,  github_username  ) VALUES ( testes2 ,  cleverson ,  teste2  )' at line 1
-)
-
-UPDATE users SET ( :? = ':?',  :? = ':?',  :? = ':?' )  WHERE  :? =  :? 
-Args => Array
-(
-    [0] => teste
-    [1] => testes2
-    [2] => name
-    [3] => cleverson
-    [4] => github_username
-    [5] => teste2
-    [6] => id
-    [7] => 1
-)
-
-SQL ERRORS => Array
-(
-    [0] => 42000
-    [1] => 1064
-    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( teste = 'testes2',  name = 'cleverson',  github_username = 'teste2' )  WHERE  ' at line 1
-)
-
-UPDATE users SET  :? = ':?',  :? = ':?',  :? = ':?' WHERE  :? =  :? 
-Args => Array
-(
-    [0] => teste
-    [1] => testes2
-    [2] => name
-    [3] => cleverson
-    [4] => github_username
-    [5] => teste2
-    [6] => id
-    [7] => 1
-)
-
+SELECT * FROM user  WHERE  github_username =  mexk1 
 SQL ERRORS => Array
 (
     [0] => 42S22
     [1] => 1054
-    [2] => Unknown column 'teste' in 'field list'
+    [2] => Unknown column 'mexk1' in 'where clause'
 )
 
-UPDATE users SET  :? = ':?',  :? = ':?' WHERE  :? =  :? 
+26/01/2020 06:07:04
+SELECT * FROM user  WHERE  :? =  :? 
 Args => Array
 (
-    [0] => name
-    [1] => cleverson
-    [2] => github_username
-    [3] => teste2
-    [4] => id
-    [5] => 1
+    [0] => github_username
+    [1] => "mexk1"
 )
 
+SELECT * FROM user  WHERE  github_username =  "mexk1" 
 
-UPDATE users SET  :? = ':?',  :? = ':?' WHERE  :? =  :? 
+26/01/2020 06:07:12
+SELECT * FROM user  WHERE  :? =  :? 
 Args => Array
 (
-    [0] => name
-    [1] => cleverson
-    [2] => github_username
-    [3] => teste2
-    [4] => id
-    [5] => 1
+    [0] => github_username
+    [1] => "mexk3"
 )
 
+SELECT * FROM user  WHERE  github_username =  "mexk3" 
 
-UPDATE users SET  :? = ':?',  :? = ':?',  :? = ':?' WHERE  :? =  :? 
+26/01/2020 06:09:39
+SELECT * FROM user  WHERE  :? =  :? 
 Args => Array
 (
-    [0] => name
-    [1] => Cleverson
-    [2] => github_username
-    [3] => teste2
-    [4] => last_name
-    [5] => Fernandes2
-    [6] => id
-    [7] => 1
+    [0] => github_username
+    [1] => "mexk3"
 )
 
+SELECT * FROM user  WHERE  github_username =  "mexk3" 
 
-SELECT * FROM users  ORDER BY  :?  :? 
+26/01/2020 06:09:40
+SELECT * FROM user  WHERE  :? =  :? 
 Args => Array
 (
-    [0] => name
-    [1] => ASC
+    [0] => github_username
+    [1] => "mexk3"
 )
 
-SQL ERRORS => Array
-(
-    [0] => HY093
-    [1] => 
-    [2] => 
-)
-
-SELECT * FROM users  ORDER BY  :?  :? 
-Args => Array
-(
-    [0] => name
-    [1] => ASC
-)
-
-SQL ERRORS => Array
-(
-    [0] => HY093
-    [1] => 
-    [2] => 
-)
-
-20/01/2020 00:48:08
-SELECT * FROM users  ORDER BY  :?  :? 
-Args => Array
-(
-    [0] => name
-    [1] => ASC
-)
-
-SQL ERRORS => Array
-(
-    [0] => HY093
-    [1] => 
-    [2] => 
-)
-
-20/01/2020 00:48:55
-SELECT * FROM users  ORDER BY  :?  :? 
-Args => Array
-(
-    [0] => name
-    [1] => ASC
-)
-
-SQL ERRORS => Array
-(
-    [0] => HY093
-    [1] => 
-    [2] => 
-)
-
-20/01/2020 00:49:42
-SELECT * FROM users  ORDER BY  :?  :? 
-Args => Array
-(
-    [0] => name
-    [1] => ASC
-)
-
-
-22/01/2020 00:45:03
-SELECT * FROM users  ORDER BY  :?  :? 
-Args => Array
-(
-    [0] => name
-    [1] => ASC
-)
-
-
-23/01/2020 03:12:03
-SELECT  FROM  
-Args => Array
-(
-)
-
-SQL ERRORS => Array
-(
-    [0] => 42000
-    [1] => 1064
-    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM' at line 1
-)
-
-23/01/2020 03:12:14
-SELECT  FROM  
-Args => Array
-(
-)
-
-SQL ERRORS => Array
-(
-    [0] => 42000
-    [1] => 1064
-    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM' at line 1
-)
-
-23/01/2020 03:13:17
-SELECT * FROM  
-Args => Array
-(
-)
-
-SQL ERRORS => Array
-(
-    [0] => 42000
-    [1] => 1064
-    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
-)
-
-23/01/2020 03:13:29
-SELECT * FROM  
-Args => Array
-(
-)
-
-SQL ERRORS => Array
-(
-    [0] => 42000
-    [1] => 1064
-    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
-)
-
-23/01/2020 03:14:01
-SELECT * FROM techs 
-Args => Array
-(
-)
-
-SQL ERRORS => Array
-(
-    [0] => 42S02
-    [1] => 1146
-    [2] => Table 'omnistack.techs' doesn't exist
-)
-
-23/01/2020 03:14:30
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:24:42
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:25:39
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:25:52
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:26:45
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:28:59
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:29:10
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:29:57
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:30:11
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:31:44
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:31:58
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:32:00
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:32:10
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:32:44
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:33:07
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:33:20
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:33:42
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:34:20
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:34:28
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:35:00
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:35:06
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:35:20
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:35:32
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:35:44
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:37:58
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:38:00
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:38:12
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:38:22
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:39:14
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:39:19
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:40:11
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:40:28
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:49:09
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:49:09
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:49:35
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:49:36
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:49:52
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:50:12
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:50:37
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:51:55
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:52:05
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:52:20
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:53:25
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:53:30
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:53:33
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:54:22
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:55:29
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:56:29
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:56:38
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:57:01
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:57:16
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:57:45
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:58:22
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:58:34
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:58:42
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:58:59
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 03:59:42
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:11:10
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:11:28
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:11:31
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:11:56
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:12:04
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:12:12
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:12:15
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:12:40
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:12:56
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:13:17
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:13:21
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:14:05
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:14:34
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:14:42
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:14:48
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:19:17
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:19:25
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:19:34
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:19:53
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:19:56
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:20:51
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:21:28
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:21:30
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:21:54
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:22:44
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:22:52
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:22:59
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:23:12
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:23:23
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:23:32
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:23:51
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:23:56
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:24:14
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:25:22
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:25:31
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:28:13
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:28:33
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:29:25
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:29:28
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:29:29
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:29:43
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:29:55
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:29:57
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:30:00
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:30:01
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:31:07
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:31:09
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:31:10
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 04:36:21
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:07:25
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:07:44
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:07:55
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:08:05
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:08:29
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:08:47
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:08:48
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:08:52
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:08:55
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:09:06
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:09:18
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:09:44
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:09:46
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:09:55
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:09:58
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:10:38
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:11:11
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:11:13
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:11:35
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:12:00
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:12:06
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:12:33
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:13:22
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:13:42
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:13:52
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:16:54
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:17:23
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:18:41
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:18:44
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:19:13
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:19:28
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:20:00
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:22:08
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:25:29
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:25:30
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:25:36
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:26:23
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:28:10
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:28:28
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:28:50
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:30:11
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:30:24
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:30:39
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:31:17
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:31:46
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:32:14
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:32:28
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:32:57
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:33:09
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:33:29
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:33:48
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:34:01
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:34:19
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:37:07
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-23/01/2020 05:37:26
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 00:11:36
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 00:13:59
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 00:14:15
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 00:14:16
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 00:15:37
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 00:32:00
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:20:45
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:22:31
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:23:04
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:23:17
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:23:19
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:24:42
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:24:53
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:24:54
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:24:55
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:25:16
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:25:18
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:25:19
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:26:38
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:26:56
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:27:17
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:27:32
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:27:48
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:27:56
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:27:59
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:28:02
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:28:47
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:29:43
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:29:43
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:30:25
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:30:27
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:30:44
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:31:10
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:31:34
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:31:35
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:31:38
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:32:25
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:32:46
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:33:25
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:33:48
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:34:16
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:34:18
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:34:52
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:35:06
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:36:02
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:36:10
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:36:21
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:36:42
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:36:49
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:36:51
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:37:52
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:37:54
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:38:00
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:38:34
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:39:02
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:40:42
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:40:55
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:41:02
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:41:13
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:42:43
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:42:56
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:43:08
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:43:24
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:43:42
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:43:43
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:44:11
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:44:23
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:44:45
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:45:08
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:45:16
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:45:24
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:45:29
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:45:38
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:45:49
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:46:28
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:46:32
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:47:04
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:48:10
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:48:23
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:48:43
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:49:32
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:50:00
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:50:30
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:51:03
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:51:10
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:51:12
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:51:33
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:51:57
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:52:28
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:52:55
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:53:08
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:53:21
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:53:52
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:53:56
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:54:14
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:54:17
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:54:38
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:55:11
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:55:26
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:55:34
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:56:14
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 01:56:18
-SELECT * FROM tech 
-Args => Array
-(
-)
-
-
-24/01/2020 02:20:13
-SELECT * FROM tech 
-Args => Array
-(
-)
-
+SELECT * FROM user  WHERE  github_username =  "mexk3" 
 
-24/01/2020 02:20:19
-SELECT * FROM tech 
+26/01/2020 06:09:40
+SELECT * FROM user  WHERE  :? =  :? 
 Args => Array
 (
+    [0] => github_username
+    [1] => "mexk3"
 )
 
+SELECT * FROM user  WHERE  github_username =  "mexk3" 
 
-24/01/2020 02:20:21
-SELECT * FROM tech 
+26/01/2020 06:09:43
+SELECT * FROM user  WHERE  :? =  :? 
 Args => Array
 (
+    [0] => github_username
+    [1] => "mexk1"
 )
 
+SELECT * FROM user  WHERE  github_username =  "mexk1" 
 
-24/01/2020 02:20:26
-SELECT * FROM tech 
+26/01/2020 06:10:24
+SELECT * FROM user  WHERE  :? =  :? 
 Args => Array
 (
+    [0] => github_username
+    [1] => "mexk1"
 )
 
+SELECT * FROM user  WHERE  github_username =  "mexk1" 
 
-24/01/2020 02:20:32
-SELECT * FROM tech 
+26/01/2020 06:13:44
+SELECT * FROM user 
 Args => Array
 (
 )
 
+SELECT * FROM user 
 
-24/01/2020 02:20:43
-SELECT * FROM tech 
+26/01/2020 06:16:05
+SELECT * FROM user  WHERE  :? =  :? 
 Args => Array
 (
+    [0] => github_username
+    [1] => "adg"
 )
 
+SELECT * FROM user  WHERE  github_username =  "adg" 
 
-24/01/2020 02:20:51
-SELECT * FROM tech 
+26/01/2020 06:17:14
+SELECT * FROM user  WHERE  :? =  :? 
 Args => Array
 (
+    [0] => github_username
+    [1] => "adg"
 )
 
+SELECT * FROM user  WHERE  github_username =  "adg" 
 
-24/01/2020 02:20:57
-SELECT * FROM tech 
+26/01/2020 06:17:42
+SELECT * FROM user  WHERE  :? =  :? 
 Args => Array
 (
+    [0] => github_username
+    [1] => "adg"
 )
 
+SELECT * FROM user  WHERE  github_username =  "adg" 
 
-24/01/2020 02:21:03
-SELECT * FROM tech 
+26/01/2020 06:17:57
+SELECT * FROM user  WHERE  :? =  :? 
 Args => Array
 (
+    [0] => github_username
+    [1] => "a"
 )
 
+SELECT * FROM user  WHERE  github_username =  "a" 
 
-24/01/2020 02:21:09
-SELECT * FROM tech 
+26/01/2020 06:18:49
+SELECT * FROM user  WHERE  :? =  :? 
 Args => Array
 (
+    [0] => github_username
+    [1] => "mexk1"
 )
 
+SELECT * FROM user  WHERE  github_username =  "mexk1" 
 
-24/01/2020 02:35:15
-SELECT * FROM tech 
+26/01/2020 06:18:52
+SELECT * FROM user  WHERE  :? =  :? 
 Args => Array
 (
+    [0] => github_username
+    [1] => "mexk12"
 )
 
+SELECT * FROM user  WHERE  github_username =  "mexk12" 
 
-24/01/2020 02:35:16
-SELECT * FROM tech 
+26/01/2020 06:19:23
+SELECT * FROM user  WHERE  :? =  :? 
 Args => Array
 (
+    [0] => github_username
+    [1] => "mexk1"
 )
 
+SELECT * FROM user  WHERE  github_username =  "mexk1" 
 
-24/01/2020 03:50:34
+26/01/2020 06:19:23
 SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
 Args => Array
 (
 )
 
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
 
-24/01/2020 03:50:34
-INSERT INTO user (  :? ,  :? ,  :? ,  :? ,  :?  ) VALUES ( ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?'  ) 
+26/01/2020 06:19:23
+INSERT INTO user (  :? ,  :? ,  :? ,  :? ,  :? ,  :? ,  :?  ) VALUES ( ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?'  ) 
 Args => Array
 (
     [0] => name
@@ -2257,82 +414,1391 @@ Args => Array
     [2] => github_username
     [3] => techs
     [4] => password
-    [5] => asdga
-    [6] => FERNANDES
-    [7] => adg
-    [8] => React, Reactjs
-    [9] => 123
+    [5] => avatar_url
+    [6] => bio
+    [7] => agsd
+    [8] => FERNANDES
+    [9] => mexk1
+    [10] => React, Reactjs
+    [11] => 202cb962ac59075b964b07152d234b70
+    [12] => https://avatars0.githubusercontent.com/u/45496687?v=4
+    [13] => 
 )
 
+INSERT INTO user (  name ,  last_name ,  github_username ,  techs ,  password ,  avatar_url ,  bio  ) VALUES ( 'agsd' ,  'FERNANDES' ,  'mexk1' ,  'React, Reactjs' ,  '202cb962ac59075b964b07152d234b70' ,  'https://avatars0.githubusercontent.com/u/45496687?v=4' ,  ''  ) 
 
-24/01/2020 03:51:46
-SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+26/01/2020 06:19:23
+SELECT id, name, last_name FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT id, name, last_name FROM user WHERE user.id = 1 
+
+26/01/2020 06:19:52
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+26/01/2020 06:23:57
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+26/01/2020 06:31:21
+SELECT * FROM user 
 Args => Array
 (
 )
 
+SELECT * FROM user 
 
-24/01/2020 03:51:46
-INSERT INTO user (  :? ,  :? ,  :? ,  :? ,  :?  ) VALUES ( ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?'  ) 
+26/01/2020 06:31:45
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
 Args => Array
 (
-    [0] => name
-    [1] => last_name
-    [2] => github_username
-    [3] => techs
-    [4] => password
-    [5] => asdga
-    [6] => FERNANDES
-    [7] => adg
-    [8] => React, Reactjs
-    [9] => 202cb962ac59075b964b07152d234b70
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
 )
 
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
 
-24/01/2020 03:57:34
-SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+26/01/2020 06:31:45
+SELECT * FROM user 
 Args => Array
 (
 )
 
+SELECT * FROM user 
 
-24/01/2020 03:57:34
-INSERT INTO user (  :? ,  :? ,  :? ,  :? ,  :?  ) VALUES ( ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?'  ) 
-Args => Array
-(
-    [0] => name
-    [1] => last_name
-    [2] => github_username
-    [3] => techs
-    [4] => password
-    [5] => agsd
-    [6] => FERNANDES
-    [7] => adg
-    [8] => React, Reactjs
-    [9] => 202cb962ac59075b964b07152d234b70
-)
-
-
-24/01/2020 03:58:39
-SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+26/01/2020 06:32:44
+SELECT * FROM user 
 Args => Array
 (
 )
 
+SELECT * FROM user 
 
-24/01/2020 03:58:39
-INSERT INTO user (  :? ,  :? ,  :? ,  :? ,  :?  ) VALUES ( ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?'  ) 
+26/01/2020 06:32:53
+SELECT * FROM user 
 Args => Array
 (
-    [0] => name
-    [1] => last_name
-    [2] => github_username
-    [3] => techs
-    [4] => password
-    [5] => agsd
-    [6] => FERNANDES
-    [7] => adg
-    [8] => React, Reactjs
-    [9] => 202cb962ac59075b964b07152d234b70
 )
 
+SELECT * FROM user 
+
+26/01/2020 06:33:11
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+26/01/2020 06:35:05
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+26/01/2020 06:35:09
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+26/01/2020 06:35:33
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+26/01/2020 06:35:34
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+26/01/2020 06:36:21
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+26/01/2020 06:36:30
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+26/01/2020 06:36:31
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+26/01/2020 06:37:42
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:38:29
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => undefined
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+
+26/01/2020 06:38:38
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+26/01/2020 06:38:38
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => undefined
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+
+26/01/2020 06:38:54
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => undefined
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+
+26/01/2020 06:39:01
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => undefined
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+
+26/01/2020 06:39:11
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+26/01/2020 06:39:12
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => undefined
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+
+26/01/2020 06:40:57
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => undefined
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+
+26/01/2020 06:41:03
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:41:39
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+26/01/2020 06:41:58
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:42:06
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:42:37
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:42:47
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:43:49
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:43:54
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:44:30
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:44:36
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:44:49
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:45:02
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:46:35
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:49:30
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:50:16
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:50:34
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:50:44
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:50:55
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:51:04
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:51:29
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:53:37
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:54:57
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:56:14
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:56:20
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:56:38
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:56:59
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:58:13
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 06:59:54
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:00:13
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:05:00
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:05:03
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:05:15
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:05:19
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:05:50
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:05:57
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:06:08
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:06:16
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:06:20
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:06:24
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:06:36
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:08:23
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:08:29
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:09:08
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:09:32
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:09:40
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:09:46
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:10:53
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:10:55
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:11:23
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:13:45
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:14:56
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:15:21
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:16:04
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:16:19
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:16:52
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:17:04
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:17:14
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:17:29
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:17:33
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:18:00
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:18:05
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:18:49
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:19:18
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:20:22
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:20:28
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:21:14
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:22:25
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:23:34
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+26/01/2020 07:23:34
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:24:04
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:24:19
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:24:26
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:25:40
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:25:46
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:25:55
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:25:58
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:26:08
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:27:05
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:27:27
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:28:29
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:28:40
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:29:04
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:30:16
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:30:23
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:31:18
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:34:03
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:35:13
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+26/01/2020 07:35:14
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:35:42
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:35:52
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:37:54
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:38:07
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:38:43
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:38:56
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:39:15
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:39:50
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:39:53
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:39:58
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:40:17
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:40:19
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:40:49
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:41:16
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:41:23
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:42:10
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:42:53
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:43:03
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:43:57
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:43:59
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:44:02
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:44:06
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:44:28
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:44:49
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:45:03
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:45:07
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:45:18
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:45:24
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:45:37
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+26/01/2020 07:45:37
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:45:44
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+26/01/2020 07:46:33
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+26/01/2020 07:46:33
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 

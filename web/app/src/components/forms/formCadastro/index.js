@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import api from "../../../services/api";
 import  M  from "materialize-css";
+import axios from 'axios';
 
 function FormCadastro (){
 
@@ -14,20 +15,53 @@ function FormCadastro (){
 
   async function subscribeDev(e){
     e.preventDefault();
-
-    var object = {
+    
+    let object = {
       name,
       last_name,
-      github_username,
+      github_username, 
       techs,
       password,
       confirmPassword
     }
-  
+
+    for(var [key, val] of Object.entries(object)){
+      if(val == '' || val == null){
+        M.toast({html: 'Campos inválidos', classes: 'error'});
+        return;
+      }
+    }
+
+    const apiresponse = await api.get(`/user?github_username=${github_username}`,{data: ''});
+    const users = apiresponse.data.data;
+
+    if(users.length){
+      M.toast({html: 'Usuário ja cadastrado', classes: 'error'});
+      return;
+    }
+
+    const github_user = await axios.get(`https://api.github.com/users/${github_username}`);
+    const {avatar_url, bio, id} = github_user.data; 
+
+    if(typeof(id) == 'undefined'){
+      M.toast({html: 'Usuário no github nao encontrado', classes: 'error'});
+      return;
+    }
+
+    object = Object.assign(object, {avatar_url, bio});
+    
     M.toast({html: 'Cadastrando'})
+    
     const response = await api.post('user', {data: object});
     
     M.toast({html: response.data.message, classes: response.data.status})
+
+    if(response.data.status == 'success'){
+      sessionStorage.setItem("@devradar/user/id", response.data.id);
+      sessionStorage.setItem("@devradar/user/name", response.data.name);
+      sessionStorage.setItem("@devradar/user/last_name", response.data.last_name);
+      window.location.href = '/dashboard';
+    }
 
   }
 

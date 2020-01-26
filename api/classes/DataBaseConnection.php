@@ -38,6 +38,7 @@ class DataBaseConnection{
       $query = $data_base_handle->prepare($sql);
       $success = $query->execute();
       
+      fwrite($log, $sql."\n");
       if(!$success){
         fwrite($log, "SQL ERRORS => ".print_r($query->errorInfo(), true));
       }
