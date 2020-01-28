@@ -1,0 +1,44 @@
+.card{
+  position: relative;
+  width: calc(100% - 50px);
+  max-width: 450px;
+  min-height: 650px;
+  margin-top: -100px;
+  display: flex;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  transition: transform .7s;
+  transform-style: preserve-3d;
+  margin: auto;
+  box-shadow: -25px 5px 40px -30px black, 25px 5px 40px -30px black;
+  margin-top: 70px;
+}
+
+.card__face{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px 10px ;
+  backface-visibility: hidden;
+}
+
+.card__face.card__face--back {
+  transform: rotateY( 180deg );
+}
+
+.card__shadow{
+  height: 50px;
+  width: 400px;
+  max-width: calc(100% - 50px);
+  box-shadow: 0px 100px 70px -5px;
+  position: absolute;
+  bottom: 0;
+}
+
+.card.card__show-back{ transform:  rotateY(-180deg) }

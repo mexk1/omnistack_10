@@ -34,6 +34,7 @@ const Routes = () => (
     <Switch>
       <Logged exact path="/" component={() => <Home />} />
       <NotLogged exact path="/dashboard"  component={() => <Dashboard />} />
+      <Redirect from='*' to='/' />
     </Switch>
   </BrowserRouter>
 )

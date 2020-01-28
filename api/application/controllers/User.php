@@ -22,7 +22,12 @@
 
       if(isset($params['user_id']) && !empty($params['user_id'])){
         if(sizeof(explode(',', $params['user_id'])) == 1){
-          return $this->getById($params['user_id']);
+          
+          $user = $this->getById($params['user_id']);
+          if(array_key_exists('password', $user)){
+            unset($user['password']);
+          }
+          return $user;
         }
 
         $where[]['id'] = explode(',', $params['user_id']);
@@ -61,6 +66,12 @@
       $success = $this->getBy($params, $fields);
 
       if(!empty($success)){
+        
+        foreach($success as $key => $user){
+          if(array_key_exists('password', $user)){
+            unset($success[$key]['password']);
+          }
+        }
         return ['success' => 'error', 'message' => '', 'data' => $success];
       }
 

@@ -1802,3 +1802,1565 @@ Args => Array
 )
 
 SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:33:22
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+28/01/2020 00:33:22
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:36:46
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:39:01
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:39:06
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:49:00
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:49:04
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:49:08
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:49:22
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+28/01/2020 00:49:23
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:49:45
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:49:59
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:50:11
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:50:19
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:50:38
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:50:45
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:51:18
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:51:24
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:51:35
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:51:50
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:52:06
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:52:23
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:52:25
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:53:34
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:53:48
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:53:50
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:54:00
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:54:31
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:54:33
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:54:36
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:55:44
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 00:57:34
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:00:03
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:00:21
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:00:24
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:00:53
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:01:11
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:01:17
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:04:30
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:04:33
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:04:37
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:05:12
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:05:13
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:05:14
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:05:14
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:05:14
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:05:14
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:05:15
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:05:15
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:05:15
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:05:15
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:05:16
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:05:16
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:05:16
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:05:26
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:05:43
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:06:22
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:06:59
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:07:23
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:08:07
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:09:10
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:09:19
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:09:42
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:09:48
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:12:47
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:12:49
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:12:51
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:15:09
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:15:12
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:17:37
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:18:32
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:18:52
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:19:01
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:19:03
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:21:03
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:22:14
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:22:37
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:22:40
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:22:41
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:23:18
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:24:00
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:24:07
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:24:20
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:24:57
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:25:15
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:25:23
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:25:31
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:25:45
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:25:45
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:25:50
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+
+28/01/2020 01:25:50
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user WHERE user.id = 1 
+SELECT * FROM user 
+
+28/01/2020 01:26:0828/01/2020 01:26:08
+
+SELECT * FROM user 
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user 
+HERE user.id = 1 
+
+28/01/2020 01:26:18
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:26:18
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:26:37
+8/01/2020 01:26:37
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+
+SELECT * FROM user 
+HERE user.id = 1 
+
+28/01/2020 01:26:42
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:26:42
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:26:5728/01/2020 01:26:57
+SELECT * FROM user 
+HERE user.id = :? 
+Args => Array
+(
+)
+  [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:27:09
+SELECT * FROM user 
+
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:27:23
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:27:23
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:28:45
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user 
+
+rgs => Array
+(
+)
+
+SELECT * FROM user 
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:28:47
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:28:47
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:29:09
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:29:09
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:29:29
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:29:29
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:29:35
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:29:35
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:29:40
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:29:40
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:32:01
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+Args => Array
+(
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:32:21
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:32:21
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:33:1528/01/2020 01:33:15SELECT * FROM user WHERE user.id = :? 
+
+SELECT * FROM user 
+[0] => 1
+)
+
+Args => Array
+(
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:33:23
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:33:23
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:34:07
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+
+28/01/2020 01:34:07
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user WHERE user.id = 1 
+SELECT * FROM user 
+
+28/01/2020 01:34:19
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:34:19
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:34:26
+SELECT * FROM user 
+Args => Array
+(
+)
+
+
+28/01/2020 01:34:26
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user 
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:34:44
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:34:44
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:35:13
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:35:13
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:35:15
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:35:15
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:35:32
+28/01/2020 01:35:32
+ELECT * FROM user WHERE user.id = :? 
+SELECT * FROM user 
+Args => Array
+(
+)
+  [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+228/01/2020 01:36:43
+SELECT * FROM user WHERE user.id = :? 
+SELECT * FROM user 
+Args => Array
+(
+    [0] => 1
+)
+Args => Array
+(
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:37:22
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+28/01/2020 01:37:22
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:37:22
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:38:53
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+28/01/2020 01:38:54
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:38:54
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:39:0228/01/2020 01:39:02 WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:39:04
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+
+28/01/2020 01:39:04
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:48:02
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+28/01/2020 01:48:03
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:48:03
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:48:24
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:48:24
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:48:53
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:48:53
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:49:00
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+28/01/2020 01:49:00
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+
+28/01/2020 01:49:00
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user WHERE user.id = 1 
+SELECT * FROM user 
+
+28/01/2020 01:51:09
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "d41d8cd98f00b204e9800998ecf8427e"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "d41d8cd98f00b204e9800998ecf8427e" 
+
+28/01/2020 01:51:11
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "c20ad4d76fe97759aa27a0c99bff6710"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "c20ad4d76fe97759aa27a0c99bff6710" 
+
+28/01/2020 01:51:13
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+28/01/2020 01:51:13
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:51:13
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:56:50
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk`"
+    [2] => password
+    [3] => "d41d8cd98f00b204e9800998ecf8427e"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk`"  AND  password =  "d41d8cd98f00b204e9800998ecf8427e" 
+
+28/01/2020 01:56:53
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+28/01/2020 01:56:53
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 01:56:53
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 01:57:45
+SELECT * FROM user 
+
+rgs => Array
+(
+)
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 02:04:34
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 02:04:34
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 02:04:38
+SELECT * FROM user 
+Args => Array
+(
+)
+
+
+28/01/2020 02:04:38
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user 
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 02:04:41
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 02:04:41
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+28/01/2020 02:04:47
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+28/01/2020 02:04:47
+SELECT * FROM user WHERE user.id = :? 
+28/01/2020 02:04:47 [0] => 1
+)
+
+
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+28/01/2020 02:04:5128/01/2020 02:04:51
+ELECT * FROM user 
+Args => Array
+(
+)
+ WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user 
+HERE user.id = 1 

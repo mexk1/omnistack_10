@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
-import FormCadastro from '../forms/formCadastro';
-import FormLogin from '../forms/formLogin';
+import FormCadastro from '../../forms/formCadastro';
+import FormLogin from '../../forms/formLogin';
+import './style.css';
 
 class Card extends Component{
 
-  constructor(props){
+  constructor(props){ 
     super(props);
     this.switchFaces = this.switchFaces.bind(this);
   }
