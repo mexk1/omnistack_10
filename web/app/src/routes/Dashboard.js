@@ -59,11 +59,11 @@ class Dashboard extends Component{
             </a>
           </aside>
 
-          <section id="devs" className="container">
-            {this.state.all_devs.map(dev => (
-              <DevCard dev_info={dev}/>
-              )
-            )}
+          <section id="devs" className="container devs">
+            {this.state.all_devs.map(dev => {
+              if(this.state.dev.id != dev.id || true)
+                return ( <DevCard key={dev.id} dev_info={dev}/>);
+            })}
           </section>
          
         </main>

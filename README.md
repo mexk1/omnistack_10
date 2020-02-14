@@ -2,9 +2,11 @@
 
 Work in progress...
 
-Some about this project
+Tehcs in this project
 
-API       => PHP. 
+API       => PHP 
 Database  => MySQL
 Web       => ReactJs
 App       => ReactNative
+
+You can run a local server to test the API and Web, they are already working.

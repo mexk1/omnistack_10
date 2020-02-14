@@ -6,6 +6,7 @@ function DevCard({dev_info}){
   return(
     <div className="dev__card">
       <a href={`https://github.com/${dev_info.github_username}`} target="_blank">
+        <div className="dev__card--overlay"></div>
         <div className="dev__card--avatar">
           <img 
             className="dev__card--avatar---image circle" 

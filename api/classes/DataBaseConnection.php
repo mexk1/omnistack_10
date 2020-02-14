@@ -44,8 +44,6 @@ class DataBaseConnection{
       }
       $data = $query->fetchAll(PDO::FETCH_ASSOC);
 
-
-
       if($this->is_insert){
         return $data_base_handle->lastInsertId();
       }

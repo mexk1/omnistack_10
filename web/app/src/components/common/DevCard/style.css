@@ -2,10 +2,36 @@
   max-width: 375px;
   min-height: 100px;
   padding: 20px;
-  height: 100%;
+  height: 200px;
   background-color: #FFF;
   border-radius: 10px;
   box-shadow: 0px 0px 20px -5px;
+  float: left;
+  width: 100%;
+  margin-right: 20px;
+  position: relative;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.dev__card:hover .dev__card--overlay{
+  display: flex;
+  cursor: pointer;
+}
+
+.dev__card--overlay{
+  position: absolute;
+  display: none;
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  opacity: 0.8;
+  background-image: url('../../../assets/images/github_logo.png');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .dev__card--avatar{

@@ -3364,3 +3364,1389 @@ Args => Array
 
 SELECT * FROM user 
 HERE user.id = 1 
+
+14/02/2020 00:49:51
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+14/02/2020 00:49:53
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 00:49:53
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+14/02/2020 00:51:13
+SELECT * FROM user  WHERE  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "ParizotoV"
+)
+
+SELECT * FROM user  WHERE  github_username =  "ParizotoV" 
+
+14/02/2020 00:51:13
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+Args => Array
+(
+)
+
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+
+14/02/2020 00:51:13
+INSERT INTO user (  :? ,  :? ,  :? ,  :? ,  :? ,  :? ,  :?  ) VALUES ( ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?'  ) 
+Args => Array
+(
+    [0] => name
+    [1] => last_name
+    [2] => github_username
+    [3] => techs
+    [4] => password
+    [5] => avatar_url
+    [6] => bio
+    [7] => Vinicuis
+    [8] => Parizoto
+    [9] => ParizotoV
+    [10] => React, Reactjs
+    [11] => 202cb962ac59075b964b07152d234b70
+    [12] => https://avatars1.githubusercontent.com/u/38093215?v=4
+    [13] => 
+)
+
+INSERT INTO user (  name ,  last_name ,  github_username ,  techs ,  password ,  avatar_url ,  bio  ) VALUES ( 'Vinicuis' ,  'Parizoto' ,  'ParizotoV' ,  'React, Reactjs' ,  '202cb962ac59075b964b07152d234b70' ,  'https://avatars1.githubusercontent.com/u/38093215?v=4' ,  ''  ) 
+
+14/02/2020 00:51:13
+SELECT id, name, last_name FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 2
+)
+
+SELECT id, name, last_name FROM user WHERE user.id = 2 
+
+14/02/2020 00:51:14
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => undefined
+)
+
+
+14/02/2020 00:51:14
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+
+14/02/2020 00:52:02
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => undefined
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+
+14/02/2020 00:52:02
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 00:52:04
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => undefined
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+
+14/02/2020 00:52:04
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 00:52:05
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => undefined
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+
+14/02/2020 00:52:05
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 00:52:06
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => undefined
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+
+14/02/2020 00:52:06
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 00:54:2714/02/2020 00:54:27SSELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => undefined
+)
+Args => Array
+(
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+SELECT * FROM user 
+
+14/02/2020 00:54:37
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => undefined
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+
+14/02/2020 00:54:37
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 00:55:16
+14/02/2020 00:55:16SELECT * FROM user WHERE user.id = :? 
+
+SELECT * FROM user 
+[0] => undefined
+)
+
+Args => Array
+(
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+SELECT * FROM user 
+
+14/02/2020 00:55:25
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "c20ad4d76fe97759aa27a0c99bff6710"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "c20ad4d76fe97759aa27a0c99bff6710" 
+
+14/02/2020 00:55:26
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+14/02/2020 00:55:26
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+14/02/2020 00:55:26
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 00:55:46
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "ParizotoV"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "ParizotoV"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+14/02/2020 00:55:47
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 2
+)
+
+SELECT * FROM user WHERE user.id = 2 
+
+14/02/2020 00:55:47
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 00:59:34
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+14/02/2020 00:59:34
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+14/02/2020 00:59:34
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 00:59:53
+14/02/2020 00:59:53WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+ELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+HERE user.id = 1 
+
+14/02/2020 01:00:18
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+14/02/2020 01:00:18
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:00:28
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+14/02/2020 01:00:28
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:00:49
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+14/02/2020 01:00:49
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:02:271SELECT * FROM user WHERE user.id = :? 
+
+SELECT * FROM user 
+[0] => 1
+)
+
+Args => Array
+(
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+14/02/2020 01:03:21
+SELECT * FROM user WHERE user.id = :? 
+
+SELECT * FROM user 
+[0] => 1
+)
+
+Args => Array
+(
+)
+
+SELECT * FROM user 
+HERE user.id = 1 
+
+14/02/2020 01:03:30
+SELECT * FROM user 
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+)
+Args => Array
+(
+    [0] => 1
+)
+
+
+SELECT * FROM user 
+HERE user.id = 1 
+
+14/02/2020 01:04:18
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+14/02/2020 01:04:18
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:04:21
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+14/02/2020 01:04:21
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:05:29
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+14/02/2020 01:05:29
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:05:57
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+14/02/2020 01:05:57
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+
+4/02/2020 01:05:59
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+HERE user.id = 1 
+
+14/02/2020 01:06:13
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+
+14/02/2020 01:06:13
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user WHERE user.id = 1 
+SELECT * FROM user 
+
+14/02/2020 01:09:30
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+14/02/2020 01:09:30
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:11:45
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+14/02/2020 01:11:45
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:12:15
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+14/02/2020 01:12:15
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:13:16
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+14/02/2020 01:13:16
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:13:34
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+14/02/2020 01:13:34
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:13:36
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+14/02/2020 01:13:36
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:16:53
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:16:53
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+14/02/2020 01:19:31
+SELECT * FROM user 
+
+Args => Array
+(
+)
+SELECT * FROM user WHERE user.id = :? 
+
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user 
+HERE user.id = 1 
+
+14/02/2020 01:20:45
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+Args => Array
+(
+)
+
+SELECT * FROM user WHERE user.id = 1 
+SELECT * FROM user 
+
+14/02/2020 01:30:08
+SELECT * FROM user  WHERE  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "filipedeschamps"
+)
+
+SELECT * FROM user  WHERE  github_username =  "filipedeschamps" 
+
+14/02/2020 01:30:08
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+Args => Array
+(
+)
+
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+
+14/02/2020 01:30:08
+INSERT INTO user (  :? ,  :? ,  :? ,  :? ,  :? ,  :? ,  :?  ) VALUES ( ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?'  ) 
+Args => Array
+(
+    [0] => name
+    [1] => last_name
+    [2] => github_username
+    [3] => techs
+    [4] => password
+    [5] => avatar_url
+    [6] => bio
+    [7] => Filipe
+    [8] => Deschamps
+    [9] => filipedeschamps
+    [10] => React, Reactjs
+    [11] => 202cb962ac59075b964b07152d234b70
+    [12] => https://avatars0.githubusercontent.com/u/4248081?v=4
+    [13] => A nice guy.
+)
+
+INSERT INTO user (  name ,  last_name ,  github_username ,  techs ,  password ,  avatar_url ,  bio  ) VALUES ( 'Filipe' ,  'Deschamps' ,  'filipedeschamps' ,  'React, Reactjs' ,  '202cb962ac59075b964b07152d234b70' ,  'https://avatars0.githubusercontent.com/u/4248081?v=4' ,  'A nice guy.'  ) 
+
+14/02/2020 01:30:08
+SELECT id, name, last_name FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 3
+)
+
+SELECT id, name, last_name FROM user WHERE user.id = 3 
+
+14/02/2020 01:30:10
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => undefined
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+
+14/02/2020 01:30:10
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:30:5414/02/2020 01:30:54SELECT * FROM user WHERE user.id = :? 
+
+SELECT * FROM user 
+[0] => undefined
+)
+
+Args => Array
+(
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+SELECT * FROM user 
+
+14/02/2020 01:37:18
+4/02/2020 01:37:18
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+)
+  [0] => undefined
+)
+
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+SELECT * FROM user 
+
+14/02/2020 01:37:53
+SELECT * FROM user  WHERE  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "diego3g"
+)
+
+SELECT * FROM user  WHERE  github_username =  "diego3g" 
+
+14/02/2020 01:37:53
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+Args => Array
+(
+)
+
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+
+14/02/2020 01:37:53
+INSERT INTO user (  :? ,  :? ,  :? ,  :? ,  :? ,  :? ,  :?  ) VALUES ( ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?'  ) 
+Args => Array
+(
+    [0] => name
+    [1] => last_name
+    [2] => github_username
+    [3] => techs
+    [4] => password
+    [5] => avatar_url
+    [6] => bio
+    [7] => Diego
+    [8] => Fernandes
+    [9] => diego3g
+    [10] => React, Reactjs
+    [11] => 202cb962ac59075b964b07152d234b70
+    [12] => https://avatars2.githubusercontent.com/u/2254731?v=4
+    [13] => CTO na @Rocketseat. Apaixonado pelas melhores tecnologias de desenvolvimento web e mobile.
+)
+
+INSERT INTO user (  name ,  last_name ,  github_username ,  techs ,  password ,  avatar_url ,  bio  ) VALUES ( 'Diego' ,  'Fernandes' ,  'diego3g' ,  'React, Reactjs' ,  '202cb962ac59075b964b07152d234b70' ,  'https://avatars2.githubusercontent.com/u/2254731?v=4' ,  'CTO na @Rocketseat. Apaixonado pelas melhores tecnologias de desenvolvimento web e mobile.'  ) 
+
+14/02/2020 01:37:53
+SELECT id, name, last_name FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 4
+)
+
+SELECT id, name, last_name FROM user WHERE user.id = 4 
+
+14/02/2020 01:37:55
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => undefined
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+
+14/02/2020 01:37:55
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:39:42
+SELECT * FROM user 
+
+Args => Array
+(
+)
+SELECT * FROM user WHERE user.id = :? 
+
+Args => Array
+(
+    [0] => undefined
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+SELECT * FROM user 
+
+14/02/2020 01:40:31
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:40:31
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => undefined
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+
+14/02/2020 01:40:3714/02/2020 01:40:37
+SELECT * FROM user WHERE user.id = :? 
+SELECT * FROM user 
+[0] => undefined
+)
+Args => Array
+(
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+SELECT * FROM user 
+
+
+4/02/2020 01:40:40
+SELECT * FROM user WHERE user.id = :? 
+14/02/2020 01:40:40Args => Array
+(
+    [0] => undefined
+)
+
+
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+SELECT * FROM user 
+
+14/02/2020 01:40:40
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => undefined
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+
+14/02/2020 01:40:40
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:42:15
+SELECT * FROM user 
+Args => Array
+(
+)
+
+
+14/02/2020 01:42:15
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => undefined
+)
+
+SELECT * FROM user WHERE user.id = undefined 
+SQL ERRORS => Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'undefined' in 'where clause'
+)
+
+14/02/2020 01:43:30
+SELECT * FROM user  WHERE  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+)
+
+SELECT * FROM user  WHERE  github_username =  "mexk1" 
+
+14/02/2020 01:43:30
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+Args => Array
+(
+)
+
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+
+14/02/2020 01:43:30
+INSERT INTO user (  :? ,  :? ,  :? ,  :? ,  :? ,  :? ,  :?  ) VALUES ( ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?'  ) 
+Args => Array
+(
+    [0] => name
+    [1] => last_name
+    [2] => github_username
+    [3] => techs
+    [4] => password
+    [5] => avatar_url
+    [6] => bio
+    [7] => Cleverson
+    [8] => Fernandes
+    [9] => mexk1
+    [10] => React, Reactjs
+    [11] => 202cb962ac59075b964b07152d234b70
+    [12] => https://avatars0.githubusercontent.com/u/45496687?v=4
+    [13] => 
+)
+
+INSERT INTO user (  name ,  last_name ,  github_username ,  techs ,  password ,  avatar_url ,  bio  ) VALUES ( 'Cleverson' ,  'Fernandes' ,  'mexk1' ,  'React, Reactjs' ,  '202cb962ac59075b964b07152d234b70' ,  'https://avatars0.githubusercontent.com/u/45496687?v=4' ,  ''  ) 
+
+14/02/2020 01:43:30
+SELECT id, name, last_name FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT id, name, last_name FROM user WHERE user.id = 1 
+
+14/02/2020 01:43:31
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+14/02/2020 01:43:31
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:43:58
+SELECT * FROM user  WHERE  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "ParizotoV"
+)
+
+SELECT * FROM user  WHERE  github_username =  "ParizotoV" 
+
+14/02/2020 01:43:59
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+Args => Array
+(
+)
+
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+
+14/02/2020 01:43:59
+INSERT INTO user (  :? ,  :? ,  :? ,  :? ,  :? ,  :? ,  :?  ) VALUES ( ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?'  ) 
+Args => Array
+(
+    [0] => name
+    [1] => last_name
+    [2] => github_username
+    [3] => techs
+    [4] => password
+    [5] => avatar_url
+    [6] => bio
+    [7] => Vinicuis
+    [8] => Parizoto
+    [9] => ParizotoV
+    [10] => React, Reactjs
+    [11] => 202cb962ac59075b964b07152d234b70
+    [12] => https://avatars1.githubusercontent.com/u/38093215?v=4
+    [13] => 
+)
+
+INSERT INTO user (  name ,  last_name ,  github_username ,  techs ,  password ,  avatar_url ,  bio  ) VALUES ( 'Vinicuis' ,  'Parizoto' ,  'ParizotoV' ,  'React, Reactjs' ,  '202cb962ac59075b964b07152d234b70' ,  'https://avatars1.githubusercontent.com/u/38093215?v=4' ,  ''  ) 
+
+14/02/2020 01:43:59
+SELECT id, name, last_name FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 2
+)
+
+SELECT id, name, last_name FROM user WHERE user.id = 2 
+
+14/02/2020 01:44:00
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 2
+)
+
+
+14/02/2020 01:44:00
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+HERE user.id = 2 
+
+14/02/2020 01:44:35
+SELECT * FROM user  WHERE  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "filipedeschamps"
+)
+
+SELECT * FROM user  WHERE  github_username =  "filipedeschamps" 
+
+14/02/2020 01:44:35
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+Args => Array
+(
+)
+
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+
+14/02/2020 01:44:35
+INSERT INTO user (  :? ,  :? ,  :? ,  :? ,  :? ,  :? ,  :?  ) VALUES ( ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?'  ) 
+Args => Array
+(
+    [0] => name
+    [1] => last_name
+    [2] => github_username
+    [3] => techs
+    [4] => password
+    [5] => avatar_url
+    [6] => bio
+    [7] => Filipe
+    [8] => Deschamps
+    [9] => filipedeschamps
+    [10] => React, Reactjs
+    [11] => 202cb962ac59075b964b07152d234b70
+    [12] => https://avatars0.githubusercontent.com/u/4248081?v=4
+    [13] => A nice guy.
+)
+
+INSERT INTO user (  name ,  last_name ,  github_username ,  techs ,  password ,  avatar_url ,  bio  ) VALUES ( 'Filipe' ,  'Deschamps' ,  'filipedeschamps' ,  'React, Reactjs' ,  '202cb962ac59075b964b07152d234b70' ,  'https://avatars0.githubusercontent.com/u/4248081?v=4' ,  'A nice guy.'  ) 
+
+14/02/2020 01:44:35
+SELECT id, name, last_name FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 3
+)
+
+SELECT id, name, last_name FROM user WHERE user.id = 3 
+
+14/02/2020 01:44:37
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 3
+)
+
+SELECT * FROM user WHERE user.id = 3 
+
+14/02/2020 01:44:37
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:45:05
+SELECT * FROM user  WHERE  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "diego3g"
+)
+
+SELECT * FROM user  WHERE  github_username =  "diego3g" 
+
+14/02/2020 01:45:06
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+Args => Array
+(
+)
+
+SELECT COLUMN_NAME as columns FROM information_schema.columns WHERE table_schema="omnistack" AND table_name="user"
+
+14/02/2020 01:45:06
+INSERT INTO user (  :? ,  :? ,  :? ,  :? ,  :? ,  :? ,  :?  ) VALUES ( ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?' ,  ':?'  ) 
+Args => Array
+(
+    [0] => name
+    [1] => last_name
+    [2] => github_username
+    [3] => techs
+    [4] => password
+    [5] => avatar_url
+    [6] => bio
+    [7] => Diego
+    [8] => Fernandes
+    [9] => diego3g
+    [10] => React, Reactjs
+    [11] => 202cb962ac59075b964b07152d234b70
+    [12] => https://avatars2.githubusercontent.com/u/2254731?v=4
+    [13] => CTO na @Rocketseat. Apaixonado pelas melhores tecnologias de desenvolvimento web e mobile.
+)
+
+INSERT INTO user (  name ,  last_name ,  github_username ,  techs ,  password ,  avatar_url ,  bio  ) VALUES ( 'Diego' ,  'Fernandes' ,  'diego3g' ,  'React, Reactjs' ,  '202cb962ac59075b964b07152d234b70' ,  'https://avatars2.githubusercontent.com/u/2254731?v=4' ,  'CTO na @Rocketseat. Apaixonado pelas melhores tecnologias de desenvolvimento web e mobile.'  ) 
+
+14/02/2020 01:45:06
+SELECT id, name, last_name FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 4
+)
+
+SELECT id, name, last_name FROM user WHERE user.id = 4 
+
+14/02/2020 01:45:07
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 4
+)
+
+SELECT * FROM user WHERE user.id = 4 
+
+14/02/2020 01:45:07
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:45:54
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+14/02/2020 01:45:54
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+14/02/2020 01:45:54
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:49:13
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "mexk1"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "mexk1"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+14/02/2020 01:49:14
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 1
+)
+
+SELECT * FROM user WHERE user.id = 1 
+
+14/02/2020 01:49:14
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 
+
+14/02/2020 01:59:0514/02/2020 01:59:05SELECT * FROM user WHERE user.id = :? 
+
+SELECT * FROM user 
+[0] => 1
+)
+
+rgs => Array
+(
+)
+
+SELECT * FROM user WHERE user.id = 1 
+SELECT * FROM user 
+
+14/02/2020 02:02:28
+SELECT id, name, github_username, last_name FROM user  WHERE  :? =  :?  AND  :? =  :? 
+Args => Array
+(
+    [0] => github_username
+    [1] => "filipedeschamps"
+    [2] => password
+    [3] => "202cb962ac59075b964b07152d234b70"
+)
+
+SELECT id, name, github_username, last_name FROM user  WHERE  github_username =  "filipedeschamps"  AND  password =  "202cb962ac59075b964b07152d234b70" 
+
+14/02/2020 02:02:28
+SELECT * FROM user WHERE user.id = :? 
+Args => Array
+(
+    [0] => 3
+)
+
+SELECT * FROM user WHERE user.id = 3 
+
+14/02/2020 02:02:28
+SELECT * FROM user 
+Args => Array
+(
+)
+
+SELECT * FROM user 

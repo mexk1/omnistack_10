@@ -57,10 +57,12 @@ function FormCadastro (){
     M.toast({html: response.data.message, classes: response.data.status})
 
     if(response.data.status == 'success'){
-      sessionStorage.setItem("@devradar/user/id", response.data.id);
-      sessionStorage.setItem("@devradar/user/name", response.data.name);
-      sessionStorage.setItem("@devradar/user/last_name", response.data.last_name);
-      window.location.href = '/dashboard';
+      sessionStorage.setItem("@devradar/user/name", response.data.data.name);
+      sessionStorage.setItem("@devradar/user/last_name", response.data.data.last_name);
+      sessionStorage.setItem("@devradar/user/id", response.data.data.id);
+      setTimeout(() => {
+        window.location.href = '/dashboard'; 
+      }, 1000)
     }
 
   }

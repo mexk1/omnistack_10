@@ -7,7 +7,7 @@ import axios from 'axios';
   
 // })
 const api = axios.create({
-  baseURL: "http://omnistack.personalprojects/api/",
+  baseURL: "http://localhost/api/",
   timeout: 10000,
   transformRequest: [(data) => JSON.stringify(data.data)],
 });
