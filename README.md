@@ -4,12 +4,12 @@ Work in progress...
 
 Tehcs in this project
 
-API       => PHP \n
+API       => PHP 
 
-Database  => MySQL \n
+Database  => MySQL 
 
-Web       => ReactJs \n
+Web       => ReactJs 
 
-App       => ReactNative \n
+App       => ReactNative 
 
 You can run a local server to test the API and Web, they are already working.
